@@ -1528,16 +1528,16 @@ header .logo a {
 	position: relative;
 	text-align: left;
 	max-width: 850px;
-	margin-bottom: 26rem;
+	margin-bottom: 60rem;
 }
-@media only screen and (max-width:761px) {
+@media only screen and (max-width:768px) {
 	.about-content {
-		margin-bottom: 60rem;
+		margin-bottom: 100rem;
 	}
 }
 @media only screen and (max-width:350px) {
 	.about-content {
-		margin-bottom: 70rem;
+		margin-bottom: 110rem;
 	}
 }
 

@@ -968,6 +968,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
+.skill-bars li div {
+	padding-top: 2rem;
+}
 .skill-bars li .progress {
 	background: #313131;
 	position: relative;
@@ -1525,8 +1528,19 @@ header .logo a {
 	position: relative;
 	text-align: left;
 	max-width: 850px;
-	margin-bottom: 3.6rem;
+	margin-bottom: 26rem;
 }
+@media only screen and (max-width:761px) {
+	.about-content {
+		margin-bottom: 60rem;
+	}
+}
+@media only screen and (max-width:350px) {
+	.about-content {
+		margin-bottom: 70rem;
+	}
+}
+
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
@@ -1569,7 +1583,9 @@ header .logo a {
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
 }
-
+.text-black {
+	color: black;
+}
 /**
  * responsive:
  * about

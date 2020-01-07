@@ -1532,12 +1532,12 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.about-content {
-		margin-bottom: 100rem;
+		margin-bottom: 110rem;
 	}
 }
 @media only screen and (max-width:350px) {
 	.about-content {
-		margin-bottom: 110rem;
+		margin-bottom: 120rem;
 	}
 }
 
@@ -1599,8 +1599,9 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 10.8rem;
+		width: 10.8rem;
+		margin: 3.9rem 4rem 4rem 0rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -1625,8 +1626,9 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 12.6rem;
+		width: 12.6rem;
+		margin: 0 0 3rem 0;
 		float: none;
 		display: inline-block;
 	}
